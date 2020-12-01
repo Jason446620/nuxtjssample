@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "cross-env PORT=8055 nuxt start",
+    "build": "nuxt build && next export",
+    "start": "cross-env PORT=80 nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {
